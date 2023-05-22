@@ -1,0 +1,72 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.head {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 5px;
+  color: #0275d8;
+  text-transform: uppercase;
+}
+.form-control {
+  background-color: rgba(164, 164, 164, 0.1);
+  border: none;
+  /* border-radius: 4rem; */
+  align-content: center;
+  -webkit-text-fill-color: black;
+}
+
+a {
+  color: var(--bs-link-color);
+  text-decoration: underline;
+}
+
+.check_box {
+  display: flex;
+  justify-content: flex-end;
+}
+.col {
+  padding-bottom: 50px;
+}
+.log_container {
+  border-radius: 40px;
+  /* box-shadow: rgb(220, 224, 229) 0px 20px 30px -10px; */
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  display: flex;
+  justify-content: center;
+
+  border: none;
+}
+.card_header {
+  align-items: center;
+  text-align: center;
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+}
+.form-error {
+  position: absolute;
+  color: red;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+#button {
+  width: 90%;
+}
+.btn_center {
+  display: flex;
+  justify-content: center;
+}
+/* .main_container {
+  background-image: url("image/wallpaperflare.com_wallpaper\ \(3\).jpg");
+  background-repeat: no-repeat;
+  background-size: 1030px;
+  background-position: center;
+} */
+#card__Body {
+  width: auto;
+}

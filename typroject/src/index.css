@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+}
+
+.logo {
+  width: 70px;
+}
+ul li a {
+  text-decoration: none;
+}
+h5 {
+  padding: 5px;
+}
+
+.btn2:hover {
+  background-color: black;
+  -webkit-text-fill-color: white;
+  border-radius: 1rem;
+  padding: 0.6rem;
+  transition: 0.3s;
+}
+
+.img-container {
+  width: fit-content;
+  height: 17rem;
+  border: none;
+  padding: 20px;
+  align-items: center;
+}
+.card-image {
+  width: auto;
+}
+
+.smart-phone {
+  padding: 10px;
+}
+/* .card {
+} */
+.phone-container {
+  align-items: center;
+  margin-top: 30px;
+
+  /* margin: 30px;
+  width: 10rem; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.phone-container:hover {
+  transform: scale(1.07);
+  transition: 0.3s;
+}
+.label {
+  font-family: "Babylonica", cursive;
+  font-size: 30px;
+  text-decoration: solid 2px black;
+}
+
+/* .footer-container {
+  height: auto;
+} */
+
+.con {
+  margin-top: 30px;
+}
+.card-text {
+  text-align: center;
+}
+.check--btn {
+  align-items: center;
+  text-align: center;
+  border: none;
+}
+.check--btn button {
+  border: none;
+  padding: 3px;
+  border-radius: 5px;
+}
+.check--btn button:hover {
+  background-color: black;
+  color: white;
+}
+.jcc {
+  align-items: center;
+}
+.card-body {
+  width: 20rem;
+}
+.dropdown-menu {
+  --bs-dropdown-link-active-color: #330505;
+  --bs-dropdown-link-active-bg: #0d6efd;
+}

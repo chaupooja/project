@@ -1,0 +1,92 @@
+@media only screen and (max-width: 768px) {
+  #phone-image {
+    width: 100%;
+    font-size: large;
+  }
+  #detail {
+    width: 100%;
+    font-size: 30px;
+  }
+  #details {
+    font-size: 25px;
+  }
+  .card-title {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #phone-image {
+    width: 70%;
+    align-items: center;
+    font-size: large;
+  }
+  #detail {
+    width: 100%;
+    font-size: 30px;
+  }
+  #details {
+    font-size: 25px;
+  }
+  .card-title {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  #phone-image {
+    width: 70%;
+    align-items: center;
+    font-size: large;
+  }
+  #detail {
+    width: 100%;
+    font-size: 30px;
+  }
+  #details {
+    font-size: 25px;
+  }
+  .card-title {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  #phone-image {
+    width: 100%;
+    align-items: center;
+    font-size: large;
+  }
+  #detail {
+    width: 100%;
+    font-size: 10px;
+  }
+  #details {
+    font-size: small;
+  }
+  .card-title {
+    font-size: small;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #phone-image {
+    width: 100%;
+    align-items: center;
+    font-size: large;
+  }
+  #detail {
+    width: 100%;
+    font-size: small;
+  }
+  #details {
+    font-size: small;
+  }
+  .card-title {
+    font-size: small;
+  }
+}
+.card-text {
+  display: flex;
+}
+#card__Body {
+  width: auto;
+}
